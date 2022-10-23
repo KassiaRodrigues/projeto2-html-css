@@ -10,23 +10,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
 </head>
 <body>
     <div class="container">
         <div class="container_login">
+            
+            <div class="image_ultima"></div>
+            
             <form>
                 <h1>Login</h1>
                 
-                <input type="text" placeholder="Informe seu E-mail">
-                <input type="text" placeholder="Informe sua Senha">
+                <input type="text" placeholder="&#xf003; E-mail" style="font-family:Arial, FontAwesome" />
+                <input type="password" placeholder="&#xf023; Senha" style="font-family:Arial, FontAwesome" />
                 
+                <div >
+                    <input type="checkbox" class="checkbox">
+                    <label> Lembre de mim </label>
+
+                    <a href="#" class="">Esqueci minha senha </a>
+                </div>
+
                 <button>Entrar</button>
 
-                
-                <p>Não tenho registro. <a href="#">Desejo criar minha conta</a></p>
+                <a href="#">Desejo criar minha conta</a>
             </form>
         </div>
+        <div class="container_image"></div>
     </div>
 </body>
 </html>

@@ -7,7 +7,6 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background: #c4c4c4;
 
     display: flex;
     flex-direction: row;
@@ -16,14 +15,40 @@
 }
 
 .container_login {
-    width: 400px;
-    height: 400px;
+    height: 840px;
+    width: 720px;
+    left: 720px;
+    top: 0px;
     background: #fff;
-    border-top: 5px solid #2A88C8;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_image {
+    height: 840px;
+    width: 720px;
+    left: 720px;
+    top: 0px;
+    border-radius: 0px;
+    background: url(image.png);
+    opacity: 0.84;
+}
+
+.image_ultima {
+    height: 55px;
+    width: 154px;
+    left: 253px;
+    top: 142px;
+    border-radius: 0px;
+    background: url(imageUltima.png);
 }
 
 h1 {
-    margin: 28px;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 form {
@@ -43,6 +68,23 @@ input{
     border-radius: 15px;
 }
 
+.checkbox {
+    box-sizing: border-box;
+
+    width: 18px;
+    height: 18px;
+    left: 160px;
+    top: 521px;
+
+    margin-right: 5px;
+
+    border: 2px solid #000000;
+}
+
+label {
+    margin-right: 20px;
+}
+
 button {
     width: 340px;
     height: 56px;
@@ -51,4 +93,18 @@ button {
     color: #ffff;
     margin-bottom: 24px;
     border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #111111;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #111111;
 }
